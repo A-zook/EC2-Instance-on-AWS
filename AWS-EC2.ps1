@@ -54,3 +54,7 @@ aws ec2 describe-instances `
 
 # === View the contents of the PEM file (private key) ===
 Get-Content -Path .\Azi-Third.pem
+
+#THen you get your Private Key and Password on the AWS console,
+#then you can login RemoteDesktopProtocol (rdp) as Administrator and enter the password generated on your AWS console,
+#then you can download Apache on your beowser and configure it for use. Thank You
